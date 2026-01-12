@@ -1,0 +1,119 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+}
+
+body {
+    background-color: #0F172A;
+}
+
+.logo {
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+main {
+    width: 375px;
+    max-width: 100%;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin: 0 auto 40px;
+    padding: 44px 24px 23px;
+}
+
+main .bandeiraBrasil, .bandeiraEua {
+    max-width: 100%;
+    height: auto;
+}
+
+label {
+    color: #64748B;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+select, input {
+    background-color: #F8FAFC;
+    color: #334155;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    padding: 10px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: #E2E8F0;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+button {
+    background-color: #22C55E;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    height: 48px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+button:hover {
+    background-color: #16A34A;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+section {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin-top: 36px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seta {
+    margin: 15px 0;
+}
+
+.moedaReal, .moedaDolar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.moeda {
+    color: #1E293B;
+    font-size: 14px;
+}
+
+.moedaValorAConverter, .moedaValorConvertido {
+    color: #555555;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.bandeiraBrasil, .bandeiraOrigem, .bandeiraEua, .bandeiraDestino {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+}
